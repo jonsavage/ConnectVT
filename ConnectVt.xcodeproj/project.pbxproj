@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB6F96F1B4752A400480244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6F96E1B4752A400480244 /* AppDelegate.swift */; };
+		EBB6F9711B4752A400480244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6F9701B4752A400480244 /* ViewController.swift */; };
+		EBB6F9741B4752A400480244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB6F9721B4752A400480244 /* Main.storyboard */; };
+		EBB6F9771B4752A400480244 /* ConnectVt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBB6F9751B4752A400480244 /* ConnectVt.xcdatamodeld */; };
+		EBB6F9791B4752A400480244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB6F9781B4752A400480244 /* Assets.xcassets */; };
+		EBB6F97C1B4752A400480244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB6F97A1B4752A400480244 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBB6F96B1B4752A400480244 /* ConnectVt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectVt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB6F96E1B4752A400480244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB6F9701B4752A400480244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBB6F9731B4752A400480244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB6F9761B4752A400480244 /* ConnectVt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConnectVt.xcdatamodel; sourceTree = "<group>"; };
+		EBB6F9781B4752A400480244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB6F97B1B4752A400480244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBB6F97D1B4752A400480244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB6F9681B4752A400480244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB6F9621B4752A400480244 = {
+			isa = PBXGroup;
+			children = (
+				EBB6F96D1B4752A400480244 /* ConnectVt */,
+				EBB6F96C1B4752A400480244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB6F96C1B4752A400480244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6F96B1B4752A400480244 /* ConnectVt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB6F96D1B4752A400480244 /* ConnectVt */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6F96E1B4752A400480244 /* AppDelegate.swift */,
+				EBB6F9701B4752A400480244 /* ViewController.swift */,
+				EBB6F9721B4752A400480244 /* Main.storyboard */,
+				EBB6F9781B4752A400480244 /* Assets.xcassets */,
+				EBB6F97A1B4752A400480244 /* LaunchScreen.storyboard */,
+				EBB6F97D1B4752A400480244 /* Info.plist */,
+				EBB6F9751B4752A400480244 /* ConnectVt.xcdatamodeld */,
+			);
+			path = ConnectVt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB6F96A1B4752A400480244 /* ConnectVt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB6F9801B4752A400480244 /* Build configuration list for PBXNativeTarget "ConnectVt" */;
+			buildPhases = (
+				EBB6F9671B4752A400480244 /* Sources */,
+				EBB6F9681B4752A400480244 /* Frameworks */,
+				EBB6F9691B4752A400480244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectVt;
+			productName = ConnectVt;
+			productReference = EBB6F96B1B4752A400480244 /* ConnectVt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB6F9631B4752A400480244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jon Savage";
+				TargetAttributes = {
+					EBB6F96A1B4752A400480244 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = EBB6F9661B4752A400480244 /* Build configuration list for PBXProject "ConnectVt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB6F9621B4752A400480244;
+			productRefGroup = EBB6F96C1B4752A400480244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB6F96A1B4752A400480244 /* ConnectVt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB6F9691B4752A400480244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB6F97C1B4752A400480244 /* LaunchScreen.storyboard in Resources */,
+				EBB6F9791B4752A400480244 /* Assets.xcassets in Resources */,
+				EBB6F9741B4752A400480244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB6F9671B4752A400480244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB6F9771B4752A400480244 /* ConnectVt.xcdatamodeld in Sources */,
+				EBB6F9711B4752A400480244 /* ViewController.swift in Sources */,
+				EBB6F96F1B4752A400480244 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBB6F9721B4752A400480244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB6F9731B4752A400480244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB6F97A1B4752A400480244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB6F97B1B4752A400480244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB6F97E1B4752A400480244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB6F97F1B4752A400480244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB6F9811B4752A400480244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConnectVt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Connect.ConnectVt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBB6F9821B4752A400480244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConnectVt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Connect.ConnectVt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB6F9661B4752A400480244 /* Build configuration list for PBXProject "ConnectVt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB6F97E1B4752A400480244 /* Debug */,
+				EBB6F97F1B4752A400480244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB6F9801B4752A400480244 /* Build configuration list for PBXNativeTarget "ConnectVt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB6F9811B4752A400480244 /* Debug */,
+				EBB6F9821B4752A400480244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBB6F9751B4752A400480244 /* ConnectVt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBB6F9761B4752A400480244 /* ConnectVt.xcdatamodel */,
+			);
+			currentVersion = EBB6F9761B4752A400480244 /* ConnectVt.xcdatamodel */;
+			path = ConnectVt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBB6F9631B4752A400480244 /* Project object */;
+}
